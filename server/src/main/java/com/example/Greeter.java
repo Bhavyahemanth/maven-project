@@ -11,9 +11,11 @@ public class Greeter {
   public Greeter() {
 
   }
-
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
+ /**
+   * @bhavya someone the name of person
+   * @return greetinf string
+   */
+  public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
